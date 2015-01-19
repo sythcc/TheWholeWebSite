@@ -1,7 +1,1 @@
 /target/
-
-/src/main/resources
-*.classpath
-*.xml
-*.project
-.settings/
