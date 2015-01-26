@@ -4,7 +4,6 @@
 	<groupId>com.refer</groupId>
 	<artifactId>TheWholeWebSite</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -70,6 +69,11 @@
 			<groupId>velocity</groupId>
 			<artifactId>velocity-dep</artifactId>
 			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.saxon</groupId>
+			<artifactId>saxon</artifactId>
+			<version>8.7</version>
 		</dependency>
 	</dependencies>
 </project>
