@@ -19,7 +19,7 @@ public class TestForNG {
 		Assert.assertEquals(true, true);
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void testCat3() {
 		Assert.assertEquals(false, true);
 	}
@@ -34,7 +34,7 @@ public class TestForNG {
 		Assert.assertEquals(true, true);
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void testCat6() {
 		Assert.assertEquals(false, true);
 	}
