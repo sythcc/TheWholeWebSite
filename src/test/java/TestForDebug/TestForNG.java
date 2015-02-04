@@ -16,7 +16,7 @@ public class TestForNG {
 	
 	@Test
 	public void testCat9() {
-		Assert.assertEquals(true, true);
+		Assert.assertEquals(false, true);
 	}
 	
 	@Test(enabled=false)

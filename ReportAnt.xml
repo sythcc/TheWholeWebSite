@@ -8,7 +8,7 @@
 	<target name="transform">
 		<xslt in="F:/MyeclipseWorkSpace/TheWholeWebSite/test-output/testng-results.xml"
 			style="F:/MyeclipseWorkSpace/TheWholeWebSite/test-output/testng-results.xsl"
-			out="F:/MyeclipseWorkSpace/TheWholeWebSite/test-output/index2.html">
+			out="F:/MyeclipseWorkSpace/TheWholeWebSite/test-output/index1.html">
 			<!-- you need to specify the directory here again -->
 			<param name="testNgXslt.outputDir" expression="F:/MyeclipseWorkSpace/TheWholeWebSite/test-output" />
 			<classpath refid="test.classpath" />

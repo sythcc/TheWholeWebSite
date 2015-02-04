@@ -1,20 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2015-01-25T11:07:06Z" finished-at="2015-01-25T11:07:06Z">
+  <suite name="Default suite" duration-ms="78" started-at="2015-02-04T14:07:49Z" finished-at="2015-02-04T14:07:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2015-01-25T11:07:06Z" finished-at="2015-01-25T11:07:06Z">
+    <test name="Default test" duration-ms="78" started-at="2015-02-04T14:07:49Z" finished-at="2015-02-04T14:07:49Z">
       <class name="TestForDebug.TestForNG">
-        <test-method status="PASS" signature="testCat()[pri:0, instance:TestForDebug.TestForNG@1fbafbb]" name="testCat" duration-ms="16" started-at="2015-01-25T19:07:06Z" finished-at="2015-01-25T19:07:06Z">
+        <test-method status="PASS" signature="testCat()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat" duration-ms="15" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCat -->
-        <test-method status="PASS" signature="testCat2()[pri:0, instance:TestForDebug.TestForNG@1fbafbb]" name="testCat2" duration-ms="0" started-at="2015-01-25T19:07:06Z" finished-at="2015-01-25T19:07:06Z">
+        <test-method status="FAIL" signature="testCat10()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat10" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at TestForDebug.TestForNG.testCat10(TestForNG.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat10 -->
+        <test-method status="PASS" signature="testCat2()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat2" duration-ms="16" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCat2 -->
+        <test-method status="PASS" signature="testCat8()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat8" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat8 -->
+        <test-method status="PASS" signature="testCat7()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat7" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat7 -->
+        <test-method status="FAIL" signature="testCat9()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat9" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at org.testng.Assert.assertEquals(Assert.java:296)
+	at TestForDebug.TestForNG.testCat9(TestForNG.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat9 -->
+        <test-method status="PASS" signature="testCat5()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat5" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat5 -->
+        <test-method status="PASS" signature="testCat4()[pri:0, instance:TestForDebug.TestForNG@1bc6271]" name="testCat4" duration-ms="0" started-at="2015-02-04T22:07:49Z" finished-at="2015-02-04T22:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCat4 -->
       </class> <!-- TestForDebug.TestForNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
