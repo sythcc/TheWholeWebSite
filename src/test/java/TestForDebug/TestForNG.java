@@ -48,4 +48,9 @@ public class TestForNG {
 	public void testCat8() {
 		Assert.assertEquals(true, true);
 	}
+	
+	@Test
+	public void testCat10() {
+		Assert.assertEquals(false, true);
+	}
 }
