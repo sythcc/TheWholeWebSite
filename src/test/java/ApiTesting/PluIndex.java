@@ -1,4 +1,4 @@
-package ApiTesting;
+﻿package ApiTesting;
 import java.util.Iterator;
 
 import org.openqa.selenium.By;
@@ -39,8 +39,8 @@ public class PluIndex {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.findElement(By.xpath("//*[@id='u']")).sendKeys("卢军");
-		driver.findElement(By.xpath("//*[@id='p']")).sendKeys("卢军");
+		driver.findElement(By.xpath("//*[@id='u']")).sendKeys("lj");
+		driver.findElement(By.xpath("//*[@id='p']")).sendKeys("lj");
 		driver.findElement(By.xpath("//*[@id='login_button']")).click();
 		driver.close();
 		driver.quit();
